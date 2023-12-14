@@ -1,0 +1,97 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: rgb(217, 222, 228);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.h1 {
+    align-content: center;
+}
+
+/* .content {
+    max-width: 80%;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} */
+
+.search {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+input {
+    align-items: center;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 45%;
+    cursor: pointer;
+}
+
+.weather {
+    text-align: center;
+}
+
+.temp {
+    font-size: 36px;
+    margin: 0;
+}
+
+.city {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+p {
+    margin: 5px 0;
+    word-spacing: 2px;
+    font-weight: bold;
+}
+
+#nameResult {
+    display: flex;
+}
+#weatherResult {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+}
+
+#cityImage {
+    width: 40vh; /* Set the desired width */
+    height: 40vh; /* Set the desired height  */
+    /* margin-top: 20px; */
+    overflow: hidden; /* Ensures the image won't overflow its container */
+    border-radius: 100%; /* Creates a circular shape */
+}
+
+#cityImage img {
+    width: 100%; /* Set the width to 100% to ensure the circular shape is maintained */
+    height: 100%; /* Set the height to 100% to ensure the circular shape is maintained */
+    object-fit: cover; /* Handles the aspect ratio of the image while covering the entire container */
+    display: block; /* Ensures the image is treated as a block element */
+    margin: auto; /* Centers the image horizontally within the container */
+    border-radius: 100%; /* Match the parent's border-radius for a complete circular effect */
+}
+
+
+
